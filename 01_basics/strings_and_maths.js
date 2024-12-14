@@ -26,7 +26,7 @@
  ///SPLIT METHOD
 
  let splittedUrl = newUrl.split(' ')
- console.log(splittedUrl)
+ console.log(`This is splittedUrl : ${splittedUrl}`)
 
  //************************************  MATHS  ***********************************
  let score = new Number(200)
