@@ -35,3 +35,5 @@ const data = [
   ];
   
   console.table(data);
+
+  console.log(typeof undefined)
