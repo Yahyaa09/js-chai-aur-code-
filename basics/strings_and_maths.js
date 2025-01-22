@@ -9,7 +9,7 @@
  let newstr = name.substring(1,5)
  console.log(newstr)
 
- let newstr2 = name.slice(0,5) // better susbtring can deleet from front back all (staetIndex,endIndex) if(anyindex is -ve then count from back)
+ let newstr2 = name.slice(0,5) // better susbtring can delete from front back all [startIndex,EndIndex) if(anyindex is -ve then count from back) 
  console.log(newstr2)
 
  let newstr3 = "   Yahyaa   ";
@@ -19,9 +19,12 @@
  //REPLACE METHOD
  let url = "yahyaa %20@ gmail .com";
 
- let newUrl = url.replace('%20','');
+ let newUrl = url.replace('%20',''); //just replace the first instance of %20 with ''
+
+ let newUrl2 = url.replace(/a/g,'M'); // use regular expression to replace all instances of a with M
 
  console.log(newUrl)
+ console.log(newUrl2)
 
  ///SPLIT METHOD
 
